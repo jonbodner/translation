@@ -1,10 +1,10 @@
-Quick tool to translate text using Google's Translate API.
+# Quick tool to translate text using Google's Translate API.
 
-Requirements:
+## Requirements:
 
 Make sure you have `jq` installed. On a Mac, use `brew install jq`, assuming you have Homebrew installed.
 
-Usage:
+## Usage:
 
 `./translate.sh TEXT_TO_TRANSLATE`
 
@@ -14,7 +14,7 @@ By default, this translates to English. If you want to translate to a different 
 
 The valid values for TRANSLATE_LANG are the standard two-character language codes.
 
-Example:
+## Example:
 
 ```
 % ./translate.sh "Hola a todos"
